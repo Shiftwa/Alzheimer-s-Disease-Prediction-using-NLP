@@ -1,4 +1,4 @@
-# Alzheimer-s-Disease-Prediction-using-NLP
+# Alzheimer's-Disease-Prediction-using-NLP
 This is a research project. The goal of the project is design a model which can predict whether a person is suffereing from Alzheimer's r not based on his/her way of speaking.
 To achieve this goal, I have designed CNN-LSTM with attention model and also implemented CNN, and CNN-LSTM without attention for this task. I have used the models using pretrained
  embedding (Glove) and randomly initialised embedding.
@@ -34,6 +34,9 @@ Metrics used for the model evaluation are :-
 4. Specificity
 5. F1 score
 6. AUC
+|MODELS|TECHNIQUE|ACCURACY %|PRECISION|RECALL|F1 SCORE|SPECIFICITY|AUC|
+|------|--------|-----|---------|------|--------|-----------|---|
+|CNN|Randomly initialized embedding|86.74|0.8671|0.8501|0.8585|0.8830|0.9105|
 
 # RESULTS
 
