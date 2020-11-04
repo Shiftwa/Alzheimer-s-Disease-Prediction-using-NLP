@@ -19,10 +19,6 @@ This is a hybrid model. The input is passed through 1D convolution and then it i
 
 This model is also a hybrid model. The attention layer is added which helps the model to focus on specific parts of the input sentence which helps the model to classify accurately.
 
-# WORD2VEC PLOT
-
-I also trained the WORD2VEC model on the words given in the dataset. This plot verifies that all the words are mostly related in the embedding space 
-as almost all the transcripts are the descriptions of few scenes so all the words are related.
 
 # EVALUATION METRICS
 
