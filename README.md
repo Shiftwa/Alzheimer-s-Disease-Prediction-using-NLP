@@ -35,8 +35,8 @@ Metrics used for the model evaluation are :-
 5. F1 score
 6. AUC
 |MODELS|TECHNIQUE|ACCURACY %|PRECISION|RECALL|F1 SCORE|SPECIFICITY|AUC|
-|------|--------|-----|---------|------|--------|-----------|---|
-|CNN|Randomly initialized embedding|86.74|0.8671|0.8501|0.8585|0.8830|0.9105|
+|------|------------------------------|-----|------|------|------|------|------|
+|CNN   |Randomly initialized embedding|86.74|0.8671|0.8501|0.8585|0.8830|0.9105|
 
 # RESULTS
 
