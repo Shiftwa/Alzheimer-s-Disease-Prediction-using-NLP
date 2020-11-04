@@ -34,10 +34,16 @@ Metrics used for the model evaluation are :-
 4. Specificity
 5. F1 score
 6. AUC
-|MODELS|TECHNIQUE|ACCURACY %|PRECISION|RECALL|F1 SCORE|SPECIFICITY|AUC|
+
+|MODELS|Embedding used|ACCURACY %|PRECISION|RECALL|F1 SCORE|SPECIFICITY|AUC|
 |------|------------------------------|-----|------|------|------|------|------|
 |CNN   |Randomly initialized embedding|86.74|0.8671|0.8501|0.8585|0.8830|0.9105|
+|CNN   |Glove embedding|87.05|0.8655|0.8599|0.8627|0.8801|0.9136|
+|CNN - LSTM  |Randomly initialized embedding|87.05|0.8679|0.8566|0.8622|0.8830|0.9128|
+|CNN - LSTM   |Glove embedding|87.21|0.8589|0.8729|0.8659|0.8713|0.9122|
+|CNN - LSTM with Attention  |Randomly initialized embedding|85.51|0.8585|0.8306|0.8443|0.8771|0.9176|
+|CNN - LSTM with Attention  |Glove embedding|**87.51**|**0.8717**|0.8631|**0.8674**|**0.8859**|**0.9222**|
 
 # RESULTS
 
-CNN-LSTM with attention achieved the highest accuracy of 87.51% on the test data.
+CNN-LSTM with Attention using Glove Embedding achieved the highest accuracy of 87.51% on the test data.
