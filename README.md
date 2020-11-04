@@ -1,7 +1,6 @@
-# Alzheimer's-Disease-Prediction-using-NLP
-This is a research project. The goal of the project is design a model which can predict whether a person is suffereing from Alzheimer's r not based on his/her way of speaking.
-To achieve this goal, I have designed CNN-LSTM with attention model and also implemented CNN, and CNN-LSTM without attention for this task. I have used the models using pretrained
- embedding (Glove) and randomly initialised embedding.
+# Alzheimer's Disease Prediction using NLP
+This is a research project. The goal of the project is design a model which can predict whether a person is suffereing from Alzheimer's or not based on his/her way of speaking.
+To achieve this goal, I have designed CNN-LSTM with attention model and also implemented CNN, and CNN-LSTM without attention for this task. I have used the models using pretrained embedding (Glove) and randomly initialised embedding.
 
 # Dataset
 The data used for this project is Dementia Bank Dataset.
